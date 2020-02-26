@@ -1,0 +1,8 @@
+footer.copyright {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: rgb(56, 54, 45);
+    color: white;
+    position: relative;
+    text-align: center;
+}

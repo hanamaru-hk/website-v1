@@ -1,0 +1,71 @@
+section.contact {
+    background: rgb(255, 228, 106);
+}
+
+section.contact div.contact-second-diagonal {
+    position: relative;
+    background: rgb(255, 255, 255);
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+    width: 100%;
+    text-align: center;
+}
+
+.contact-container {
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 12rem;
+}
+
+.contact-form {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+}
+
+.contact-card-background {
+    background-color: white;
+}
+
+.contact-title {
+    font-size: 50px;
+    padding-left: 0rem;
+    background-color: white;
+}
+
+.contact-text {
+    display: block;
+    position: relative;
+    font-size: 1.5em;
+    z-index: 1;
+    padding-right: 0;
+    padding-left: 0;
+    resize: none;
+    border: none;
+    border-radius: 0;
+    background: 0 0;
+    box-shadow: none;
+    width: 80%;
+    height: calc(1.5em + .75rem + .25rem);
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 2;
+    color: #495057;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.contact-textarea {
+    height: 9rem;
+    font-weight: 400;
+    font-family: Meiryo;
+}
+
+.contact-hr {
+    width: 100%;
+}

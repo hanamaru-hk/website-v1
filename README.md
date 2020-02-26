@@ -1,1 +1,2 @@
-# hanamaru-v1
+# README
+## Hanamaru Japanese Version 1

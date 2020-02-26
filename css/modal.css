@@ -1,0 +1,35 @@
+.modal-laichikok {
+    display: block;
+    position: fixed;
+    background: white;
+    height: 96%;
+    width: 96%;
+    top: 2%;
+    left: 2%;
+    z-index: 99999;
+    text-align: center;
+    overflow: scroll;
+    border-radius: 0.5em;
+
+}
+
+.modal-laichikok-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal-laichikok-expand {
+    display: none;
+}
+
+.modal-container {
+    display: block;
+    position: relative;
+}
+
+.modal-close {
+    position: fixed;
+    top: 8%;
+    right: 8%;
+    z-index: 999999;
+}
