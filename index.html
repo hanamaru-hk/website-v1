@@ -39,7 +39,7 @@
                         <a onclick="navbarButton('about')">關於我們</a>
                     </li>
                     <li>
-                        <a onclick="navbarButton('qualification')" >導師資歷</a>
+                        <a onclick="navbarButton('qualification')">導師資歷</a>
                     </li>
                     <li>
                         <a onclick="navbarButton('course')">課程資料</a>
@@ -276,21 +276,21 @@
         <div class="contact-second-diagonal">
             <div class="container contact-container">
                 <div class="container-padding">
-                <form class="contact-form">
-                    <h1 class="contact-title retroshadow">聯絡我們</h1>
-                    <input type="text" class="contact-text" placeholder="閣下姓名"></input>
-                    <hr class="contact-hr" />
-                    <input type="text" class="contact-text" placeholder="電郵"></input>
-                    <hr class="contact-hr" />
-                    <input type="text" class="contact-text" placeholder="電話（非必需）"></input>
-                    <hr class="contact-hr" />
-                    <textarea class="contact-text contact-textarea" placeholder="留言"></textarea>
-                    <hr class="contact-hr" />
-                    <br /><br />
-                </form>
-                <button class="a-btn" onclick="sendForm()">送出</a>
+                    <form class="contact-form">
+                        <h1 class="contact-title retroshadow">聯絡我們</h1>
+                        <input type="text" class="contact-text" placeholder="閣下姓名"></input>
+                        <hr class="contact-hr" />
+                        <input type="text" class="contact-text" placeholder="電郵"></input>
+                        <hr class="contact-hr" />
+                        <input type="text" class="contact-text" placeholder="電話（非必需）"></input>
+                        <hr class="contact-hr" />
+                        <textarea class="contact-text contact-textarea" placeholder="留言"></textarea>
+                        <hr class="contact-hr" />
+                        <br /><br />
+                    </form>
+                    <button class="a-btn" onclick="sendForm()">送出</a>
                 </div>
-                
+
 
             </div>
         </div>
@@ -334,50 +334,134 @@
         <small>Copyright &copy; Hanamaru Japanese 2020 </small>
     </footer>
     <div class="modal-laichikok modal-laichikok-expand" id="modal-laichikok">
-        <a class="modal-close a-btn" onclick="toggle( 'modal-laichikok', 'modal-laichikok-expand')">關閉<span class="gap-5px"></span><i
-                class="lni-close size-xs"></i></a>
-        <div class="container modal-container">
-            <div class="container-padding">
-            <div class="modal-laichikok-flex">
-                <div class="card modal-laichikok-card-normal modal-laichikok-card-1">
-                    1
-                </div>
-                <div class="card modal-laichikok-card-normal modal-laichikok-card-2">
-                    2
-                </div>
-                <div class="card modal-laichikok-card-right modal-laichikok-card-3">
-                    3
-                </div>
-                <div class="card modal-laichikok-card-left modal-laichikok-card-6">
-                    6
-                </div>
-                <div class="card modal-laichikok-card-normal modal-laichikok-card-5">
-                    5
-                </div>
-                <div class="card modal-laichikok-card-normal modal-laichikok-card-4">
-                    4
-                </div>
-                <div class="card modal-laichikok-card-normal modal-laichikok-card-7">
-                    7
-                </div>
-                <div class="card modal-laichikok-card-normal modal-laichikok-card-8">
-                    8
-                </div>
-                <div class="card modal-laichikok-card-right modal-laichikok-card-9">
-                    9
-                </div>
-                <div class="card modal-laichikok-card-normal modal-laichikok-card-12">
-                    12
-                </div>
-                <div class="card modal-laichikok-card-normal modal-laichikok-card-11">
-                    11
-                </div>
-                <div class="card modal-laichikok-card-normal modal-laichikok-card-10">
-                    10
+        <div class="modal-inner">
+            <a class="modal-close a-btn" onclick="toggle( 'modal-laichikok', 'modal-laichikok-expand')">關閉<span
+                    class="gap-5px"></span><i class="lni-close size-xs"></i></a>
+            <div class="container modal-container">
+                <div class="container-padding">
+                    <div class="modal-laichikok-flex">
+                        <div class="modal-laichikok-outer-card">
+                            <div class="card modal-laichikok-card">
+                                <div class="modal-laichikok-card-up">
+                                    <img src="img/map/1.jpeg" class="modal-laichikok-card-img" />
+                                </div>
+                                <div class="modal-laichikok-card-down">
+                                    1. 由荔枝角地鐵站B1出口出發
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-laichikok-outer-card">
+                            <div class="card modal-laichikok-card">
+                                <div class="modal-laichikok-card-up">
+                                    <img src="img/map/2.jpeg" class="modal-laichikok-card-img" />
+                                </div>
+                                <div class="modal-laichikok-card-down">
+                                    2.直行並越過前面交通燈
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-laichikok-flex">
+                        <div class="modal-laichikok-outer-card">
+
+                            <div class="modal-laichikok-card modal-laichikok-card-4">
+                                <div class="modal-laichikok-card-up">
+                                    <img src="img/map/4.jpeg" class="modal-laichikok-card-img" />
+                                </div>
+                                <div class="modal-laichikok-card-down">
+                                    4.越過光昌街 進入麗新商場
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-laichikok-outer-card">
+
+                            <div class="modal-laichikok-card modal-laichikok-card-3">
+                                <div class="modal-laichikok-card-up">
+                                    <img src="img/map/3.jpeg" class="modal-laichikok-card-img" />
+                                </div>
+                                <div class="modal-laichikok-card-down">
+                                    3.繼續直行
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-laichikok-flex">
+                        <div class="modal-laichikok-card modal-laichikok-card-5">
+                            <div class="modal-laichikok-card-up">
+                                <img src="img/map/5.jpeg" class="modal-laichikok-card-img" />
+                            </div>
+                            <div class="modal-laichikok-card-down">
+                                5.進入戲院
+                            </div>
+                        </div>
+                        <div class="modal-laichikok-card modal-laichikok-card-6">
+                            <div class="modal-laichikok-card-up">
+                                <img src="img/map/6.jpeg" class="modal-laichikok-card-img" />
+                            </div>
+                            <div class="modal-laichikok-card-down">
+                                6.穿過戲院直出福華街
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-laichikok-flex">
+
+                        <div class="modal-laichikok-card modal-laichikok-card-8">
+                            <div class="modal-laichikok-card-up">
+                                <img src="img/map/8.jpeg" class="modal-laichikok-card-img" />
+                            </div>
+                            <div class="modal-laichikok-card-down">
+                                8.直行
+                            </div>
+                        </div>
+                        <div class="modal-laichikok-card modal-laichikok-card-7">
+                            <div class="modal-laichikok-card-up">
+                                <img src="img/map/7.jpeg" class="modal-laichikok-card-img" />
+                            </div>
+                            <div class="modal-laichikok-card-down">
+                                7.直出福華街轉左
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-laichikok-flex">
+                        <div class="modal-laichikok-card modal-laichikok-card-9">
+                            <div class="modal-laichikok-card-up">
+                                <img src="img/map/9.jpeg" class="modal-laichikok-card-img" />
+                            </div>
+                            <div class="modal-laichikok-card-down">
+                                9.越過青山道
+                            </div>
+                        </div>
+                        <div class="modal-laichikok-card modal-laichikok-card-10">
+                            <div class="modal-laichikok-card-up">
+                                <img src="img/map/10.jpeg" class="modal-laichikok-card-img" />
+                            </div>
+                            <div class="modal-laichikok-card-down">
+                                10.過對面斑馬綫
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-laichikok-flex">
+                        <div class="modal-laichikok-card modal-laichikok-card-12">
+                            <div class="modal-laichikok-card-up">
+                                <img src="img/map/12.jpeg" class="modal-laichikok-card-img" />
+                            </div>
+                            <div class="modal-laichikok-card-down">
+                                12.搭升降機至11樓會見到lofter大門，按207#並等待開門
+                            </div>
+                        </div>
+                        <div class="modal-laichikok-card modal-laichikok-card-11">
+                            <div class="modal-laichikok-card-up">
+                                <img src="img/map/11.jpeg" class="modal-laichikok-card-img" />
+                            </div>
+                            <div class="modal-laichikok-card-down">
+                                11.直行直至見到百美工業大廈
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
+    </div>
     </div>
 
     <script src="js/script.js"></script>
