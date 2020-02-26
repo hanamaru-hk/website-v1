@@ -12,27 +12,27 @@ function toggle(elemName, className) {
 function scrollToSection(elem) {
     const html = getByTag('html')[0]
     const body = getByTag('body')[0]
+    const section = 50000;
     const bodyRect = body.getBoundingClientRect()
     const elemRect = elem.getBoundingClientRect()
-    const offset   = elemRect.top - bodyRect.top;
-    move(offset)
-}
-
-function move(offset) {
-    const html = getByTag('html')[0]
-    const body = getByTag('body')[0]
-    const totalInterval = offset / 10
-    let offsetMovement = 0 //= html.scrollTop;
-    function frame() {
-        offsetMovement += totalInterval
-        html.scrollTop = offsetMovement
-        html.scrollTop = offsetMovement
-        if (offsetMovement > offset)  // check finish condition
+    const elemOffset   = elemRect.top - bodyRect.top;
+    const htmlOffset =  html.scrollTop;
+    const offset = elemOffset - htmlOffset;
+    console.log(htmlOffset, elemOffset, offset)
+    let offsetMovement = offset / section;
+    let total = 0;
+    function frame(){
+        if (Math.abs(total) >= Math.abs(offset)){
+            html.scrollTop = elemOffset;
             clearInterval(id)
+            return
+        }
+        html.scrollTop += offsetMovement;
+        offsetMovement *= 1.15;
+        total += Math.abs(offsetMovement)
     }
-    var id = setInterval(frame, 10) // draw every 10ms
+    var id = setInterval(frame, 10)
 }
-
 
 function getById(id){
     return document.getElementById(id)
@@ -41,5 +41,6 @@ function getById(id){
 function getByTag(tag){
     return document.getElementsByTagName(tag)
 }
+
 
 
