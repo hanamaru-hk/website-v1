@@ -1,12 +1,18 @@
 function toggleMenu() {
-    const nav = document.getElementById('nav-list');
-    nav.classList.toggle('nav-list-expand');
+    toggle('nav-list','nav-list-expand')
+}
+
+function closeMenu(){
+    document.getElementById('nav-list').classList.remove('nav-list-expand')
 }
 
 function toggle(elemName, className) {
-    console.log('toggle', document.getElementById(elemName))
     document.getElementById(elemName).classList.toggle(className);
-    console.log('toggle', document.getElementById(elemName))
+}
+
+function navbarButton(elemName){
+    closeMenu();
+    scrollToSection(getById(elemName));
 }
 
 function scrollToSection(elem) {

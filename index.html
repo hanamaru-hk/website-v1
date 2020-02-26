@@ -30,25 +30,25 @@
         <div class="navbar-container">
             <div class="navbar-flex">
                 <div class="nav-logo">
-                    <a onclick="scrollToSection(getById('hero'))">ha yuen</a>
+                    <a onclick="scrollToSection(getById('hero'))"><img class="nav-title" src="img/nav-title.png" /></a>
                 </div>
                 <a class="nav-menu vmiddle" onclick="toggleMenu()">目錄<span class="gap-5px vmiddle"></span><i
                         class="lni-menu size-md vmiddle"></i></a>
                 <ul id="nav-list" class="nav-list">
                     <li>
-                        <a onclick="scrollToSection(getById('about'))">關於我們</a>
+                        <a onclick="navbarButton('about')">關於我們</a>
                     </li>
                     <li>
-                        <a onclick="scrollToSection(getById('qualification'))" >導師資歷</a>
+                        <a onclick="navbarButton('qualification')" >導師資歷</a>
                     </li>
                     <li>
-                        <a onclick="scrollToSection(getById('course'))">課程資料</a>
+                        <a onclick="navbarButton('course')">課程資料</a>
                     </li>
                     <li>
-                        <a onclick="scrollToSection(getById('transportation'))">前往方法</a>
+                        <a onclick="navbarButton('transportation')">前往方法</a>
                     </li>
                     <li>
-                        <a onclick="scrollToSection(getById('contact'))">聯絡我們</a>
+                        <a onclick="navbarButton('contact')">聯絡我們</a>
                     </li>
                 </ul id="nav-list">
             </div>
