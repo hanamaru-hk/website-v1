@@ -46,16 +46,26 @@
     width: 100%;
 }
 
+.modal-laichikok-flex-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .modal-laichikok-outer-card{
     display: block;
     position: relative;
     text-align: center;
     width: 40%;
+    margin-bottom: 2rem;
 }
 
 .modal-laichikok-card {
     width: 100%;
-    margin-bottom: 2rem;
+
 }
 
 .modal-laichikok-card-up{
@@ -64,14 +74,55 @@
 
 .modal-laichikok-card-img{
     width: 100%;
+}
 
+.modal-laichikok-hori-arrow{
+    width: 10%;
+}
+
+.modal-laichikok-hori-arrow-img{
+    width: 100%;
+}
+
+.modal-laichikok-hori-arrow-down-img{
+    width: 100%;
+    display: none;
+}
+
+.modal-laichikok-down-arrow{
+    width: 100%;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.modal-laichikok-down-arrow-inner{
+    width: 40%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.modal-laichikok-down-arrow-img{
+    width: 20%;
+    display: inline-block;
 }
 
 .modal-laichikok-card-down{
-    width: 100%;
+
     padding: 2rem;
-    word-wrap: break-word;
+    word-break: break-all;
+    white-space:normal;
+
 }
+
+.left-down-arrow {
+    text-align: left;
+}
+
+.right-down-arrow {
+    text-align: right;
+}
+
 
 @media screen and (max-width: 768px){
     .modal-laichikok-outer-card {
@@ -80,6 +131,49 @@
     .modal-laichikok-card {
         width: 80%;
     }
+
+    .modal-laichikok-hori-arrow{
+        width: 100%;
+        position: relative;
+        padding-bottom: 2rem;
+    }
+    
+    .modal-laichikok-hori-arrow-img{
+        width: 100%;
+        display: none;
+    }
+    
+    .modal-laichikok-hori-arrow-down-img{
+        width: 20%;
+        display: inline-block;
+    }
+    
+    .modal-laichikok-down-arrow{
+        width: 100%;
+        position: relative;
+        margin-bottom: 2rem;
+    }
+    
+    .modal-laichikok-down-arrow-inner{
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+    }
+    
+    .modal-laichikok-down-arrow-img{
+        width: 20%;
+        display: inline-block;
+    }
+    
+    .left-down-arrow {
+        text-align: center;
+    }
+    
+    .right-down-arrow {
+        text-align: center;
+    }
+    
 }
 
 @media screen and (min-width: 769px) and (max-width:1100px) {
