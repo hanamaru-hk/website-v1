@@ -64,6 +64,6 @@ function sendForm() {
             alert(xmlHttp.responseText);
         }
     }
-    xmlHttp.open("post", "https://hanamaru.hk/contact_me.php");
+    xmlHttp.open("post", "mail/contact_me.php");
     xmlHttp.send(formData);
 }
