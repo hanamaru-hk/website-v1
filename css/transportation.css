@@ -1,6 +1,5 @@
 section.transportation {
     background: rgb(255, 228, 106);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 97%);
 }
 
 section.transportation div.transportation-second-diagonal {
