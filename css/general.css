@@ -24,22 +24,29 @@ body {
     width: 992px;
 }
 
+
+/*
 .retroshadow {
     color: #2c2c2c;
     background-color: #d5d5d5;
     letter-spacing: .05em;
     text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
 }
+*/
 
 .vmiddle {
     vertical-align: middle;
 }
 
+
+/*
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+*/
+
 .card {
     display: inline-block;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    border-radius: 5px;
+    border: 1px solid #ff9785d5;
     width: 100%;
     text-align: left;
 }
