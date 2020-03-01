@@ -52,6 +52,24 @@ body {
     text-align: right;
 }
 
+.btn {
+    background-color: rgb(61, 9, 9);
+    font-size: 23px;
+    border-radius: .5rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    border: 3px solid rgb(61, 9, 9);
+    font-weight: 800;
+    border-radius: .5rem;
+    color: rgb(61, 9, 9)
+}
+
 .a-btn {
     padding: 1rem;
     background-color: #FFFFFF;
@@ -69,9 +87,8 @@ body {
     cursor: pointer;
 }
 
-.flex-reverse{
+.flex-reverse {
     flex-direction: row-reverse;
-
 }
 
 .container-padding {

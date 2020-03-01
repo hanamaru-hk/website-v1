@@ -65,6 +65,9 @@ section.course div.course-second-diagonal {
 
 .course-cell {
     display: table-cell;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    font-size: 15px;
 }
 
 .course-header-padding {
@@ -73,6 +76,10 @@ section.course div.course-second-diagonal {
 
 .course-bg-grey {
     background: #C0C0C0
+}
+
+.bottom-padding {
+    margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1100px) {
