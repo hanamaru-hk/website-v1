@@ -84,15 +84,18 @@
     width: 100%;
 }
 
-.modal-laichikok-hori-arrow-down-img{
-    width: 100%;
-    display: none;
-}
-
 .modal-laichikok-down-arrow{
     width: 100%;
     position: relative;
     margin-bottom: 2rem;
+}
+
+.modal-laichikok-vert-arrow{
+    display:none;
+}
+
+.modal-laichikok-vert-arrow-img{
+    display: none;
 }
 
 .modal-laichikok-down-arrow-inner{
@@ -133,25 +136,25 @@
     }
 
     .modal-laichikok-hori-arrow{
-        width: 100%;
-        position: relative;
-        padding-bottom: 2rem;
-    }
-    
-    .modal-laichikok-hori-arrow-img{
-        width: 100%;
         display: none;
     }
     
-    .modal-laichikok-hori-arrow-down-img{
-        width: 20%;
-        display: inline-block;
-    }
-    
     .modal-laichikok-down-arrow{
+        display: none;
+    }
+
+    .modal-laichikok-vert-arrow{
         width: 100%;
         position: relative;
         margin-bottom: 2rem;
+        text-align: center;
+        display: block;
+    }
+
+    .modal-laichikok-vert-arrow-img{
+        display: inline-block;
+        width: 20%;
+        position: relative;
     }
     
     .modal-laichikok-down-arrow-inner{
