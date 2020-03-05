@@ -11,7 +11,7 @@ It consists the following parts.
 7. Contact
 ## Version
 1.1.1 
-  The draft version.
+  The draft version. Including diagonal separator.
 ## Pending Function
 1. CSS Animation
 2. Mail Backend
