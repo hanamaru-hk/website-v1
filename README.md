@@ -9,3 +9,10 @@ It consists the following parts.
 5. Course
 6. Ways of getting here
 7. Contact
+## Version
+1.1.1 
+  The draft version.
+## Pending Function
+1. CSS Animation
+2. Mail Backend
+3. Fixed Whatsapp Icon / Modal
