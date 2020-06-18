@@ -28,6 +28,11 @@ section.hero div.hero-second-diagonal {
     height: 500px;
     background: linear-gradient(to right, rgba(255, 230, 197, 0.61), rgba(245, 195, 130, 0.3));
     z-index: 999;
+    font-size: 50px;
+    color: white;
+    text-align: left;
+    padding-top: 300px;
+    padding-left: 100px;
 }
 
 .hero-right {
