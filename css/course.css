@@ -55,6 +55,20 @@ section.course div.course-second-diagonal {
     display: table-header-group;
 }
 
+.course-title-row {
+    display: table-row-group;
+}
+
+.course-title-cell {
+    display: table-cell;
+    text-align: left;
+}
+
+.course-title-cell-right {
+    display: table-cell;
+    text-align: right;
+}
+
 .course-body {
     display: table-row-group;
 }
@@ -82,6 +96,10 @@ section.course div.course-second-diagonal {
     margin-bottom: 2rem;
 }
 
+.text-sc-right {
+    text-align: left;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1100px) {
     .course-desc1 {
         width: 100%;
@@ -91,6 +109,23 @@ section.course div.course-second-diagonal {
     .course-desc2 {
         width: 100%;
         padding-top: 0px;
+    }
+    .course-title {
+        font-size: 19px;
+    }
+    .course-title-row {
+        display: block;
+    }
+    .course-title-cell-right {
+        display: block;
+        text-align: left;
+        padding-bottom: 10px
+    }
+    .course-cell {
+        font-size: 13px;
+    }
+    .text-sc-right {
+        text-align: left;
     }
 }
 
@@ -103,5 +138,22 @@ section.course div.course-second-diagonal {
     .course-desc2 {
         width: 100%;
         padding-top: 0px;
+    }
+    .course-title {
+        font-size: 19px;
+    }
+    .course-title-row {
+        display: block;
+    }
+    .course-title-cell-right {
+        display: block;
+        text-align: left;
+        padding-bottom: 10px
+    }
+    .course-cell {
+        font-size: 12px;
+    }
+    .text-sc-right {
+        text-align: right;
     }
 }

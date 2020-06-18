@@ -82,6 +82,7 @@ section.transportation div.transportation-second-diagonal {
         align-items: flex-start;
     }
     .transportation-card-pic-1 {
+        background-image: url('../img/transportation-laichikok.jpg');
         height: 400px;
         width: 100%;
     }
@@ -101,6 +102,7 @@ section.transportation div.transportation-second-diagonal {
         align-items: flex-start;
     }
     .transportation-card-pic-1 {
+        background-image: url('../img/transportation-laichikok.jpg');
         height: 400px;
         width: 100%;
     }

@@ -107,10 +107,36 @@ body {
     .container {
         width: 700px;
     }
+    .btn {
+        font-weight: 400;
+        font-size: 17px;
+    }
+    .btn:hover {
+        font-weight: 400;
+    }
+    .a-btn {
+        font-weight: 400;
+    }
+    .a-btn:hover {
+        font-weight: 400;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .container {
         width: 100%;
+    }
+    .btn {
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .btn:hover {
+        font-weight: 400;
+    }
+    .a-btn {
+        font-weight: 400;
+    }
+    .a-btn:hover {
+        font-weight: 400;
     }
 }
