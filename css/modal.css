@@ -1,3 +1,21 @@
+.modal-japclass{
+    display: block;
+    position: fixed;
+    background: #d0d0d0;
+    height: 96%;
+    width: 96%;
+    top: 2%;
+    left: 2%;
+    z-index: 99999;
+    text-align: center;
+    overflow: scroll;
+    border-radius: 0.5em;
+
+}
+
+.modal-japclass-expand{
+    display: none;
+}
 .modal-laichikok {
     display: block;
     position: fixed;

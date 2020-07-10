@@ -71,6 +71,7 @@ section.course div.course-second-diagonal {
 }
 
 .course-title-cell-right {
+    width: 40%;
     display: table-cell;
     text-align: right;
 }
