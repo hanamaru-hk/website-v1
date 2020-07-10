@@ -10,6 +10,14 @@ section.course div.course-second-diagonal {
     text-align: center;
 }
 
+.course-desc-expand {
+    display: none;
+}
+
+.course-lg-title {
+    font-size: 50px;
+}
+
 .course-container {
     height: 100%;
     display: inline-block;
@@ -41,7 +49,7 @@ section.course div.course-second-diagonal {
     font-size: 20px;
 }
 
-.course-title{
+.course-title {
     font-size: 50px;
     margin-bottom: 10px;
 }
@@ -60,7 +68,6 @@ section.course div.course-second-diagonal {
     display: table-header-group;
 }
 
-
 .course-title-row {
     display: table-row-group;
 }
@@ -71,8 +78,8 @@ section.course div.course-second-diagonal {
 }
 
 .course-title-cell-right {
-    width: 40%;
     display: table-cell;
+    width: 50%;
     text-align: right;
 }
 
@@ -117,19 +124,19 @@ section.course div.course-second-diagonal {
         width: 100%;
         padding-top: 0px;
     }
-    .course-lg-title{
+    .course-lg-title {
         font-size: 30px;
     }
     .course-title {
         font-size: 19px;
     }
     .course-title-row {
-        display: block;
+        display: table-row;
     }
     .course-title-cell-right {
-        display: block;
-        text-align: left;
-        padding-bottom: 10px
+        width: 40%;
+        display: table-cell;
+        text-align: right;
     }
     .course-cell {
         font-size: 13px;
@@ -149,19 +156,19 @@ section.course div.course-second-diagonal {
         width: 100%;
         padding-top: 0px;
     }
-    .course-lg-title{
+    .course-lg-title {
         font-size: 30px;
     }
     .course-title {
         font-size: 19px;
     }
     .course-title-row {
-        display: block;
+        display: table-row;
     }
     .course-title-cell-right {
-        display: block;
-        text-align: left;
-        padding-bottom: 10px
+        width: 40%;
+        display: table-cell;
+        text-align: right;
     }
     .course-cell {
         font-size: 13px;

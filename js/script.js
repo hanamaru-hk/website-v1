@@ -1,3 +1,9 @@
+function toggleCustomizedClass(arrowId, descId) {
+    toggle(arrowId, 'lni-arrow-down-circle');
+    toggle(arrowId, 'lni-arrow-up-circle');
+    toggle(descId, 'course-desc-expand');
+}
+
 function toggleMenu() {
     toggle('nav-list', 'nav-list-expand')
 }

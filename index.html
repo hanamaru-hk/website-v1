@@ -14,7 +14,7 @@
     <meta name="author" content="Hanamaru Japanese">
 
 
-    
+
     <title>花丸日本語教室</title>
     <link rel="stylesheet" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css">
     <link rel="stylesheet" href="css/general.css" />
@@ -58,9 +58,8 @@
                     <li>
                         <a onclick="navbarButton('contact')">聯絡我們</a>
                     </li>
-                </ul id="nav-list">
+                </ul>
             </div>
-        </div>
         </div>
     </nav>
     <section class="hero" id="hero">
@@ -76,7 +75,7 @@
                 <div class="container-padding">
 
                     <div class="about-flex">
-                        
+
                         <div class="about-desc1">
                             <h1 class="about-title retroshadow">關於我們</h1>
                             花丸（はなまる/hanamaru）是指老師給成績優異的學生試卷上畫上的一個花型圖案，有讚賞的意思，形狀就像在一個漩渦外畫上花瓣。<br /><br /> 由於教室負責人喜歡花（はな/hana）形圖案，所以特別留意及喜歡這花丸圖案，並經常希望在學生的功課或試卷上畫上，可惜機會不多。
@@ -134,24 +133,35 @@
             <div class="container course-container">
                 <div class="container-padding">
                     <h1 class="course-title retroshadow">常規班</h1>
-                    <p>以日常生活為背景學習日語及日本文化。分為以下5種程度：</p>
+                    <p>以日常生活為背景學習日語及日本文化。時間、人數、程度由教室安排。<br/>課程分為以下5種程度：</p>
+                    <p>*學費以每月計，每月繳交一次學費。<br/> *除特別情況外，不安排上門教學。</p>
                     <div class="card bottom-padding">
                         <div class="course-flex">
                             <div class="course-desc1">
                                 <div class="course-table">
                                     <div class="course-title-row">
                                         <div class="course-title-cell">
-                                            <p class="course-card-title retroshadow">基礎程度（約40堂、每堂1.5小時）</p>
-                                            <p>學生完成此課程後，將懂得基本發音、簡單會話、名詞、動詞、形容詞基本句型。</p>
+                                            <p class="course-card-title retroshadow">基礎程度</p>
                                         </div>
                                         <div class="course-title-cell-right">
-                                            <button class="btn" onclick="window.open('http://docs.google.com/forms/d/1z9sXRLlSq8N6U_IOTPPVoCkDxZ3yhw0PzzNf0uutB-s/','_blank')" id="sendMessageButton">按此報名
-                                        </button>
+                                            <button class="btn" onclick="window.open('http://docs.google.com/forms/d/1z9sXRLlSq8N6U_IOTPPVoCkDxZ3yhw0PzzNf0uutB-s/','_blank')" id="sendMessageButton">
+                                                    按此報名
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
+                                <div>
+                                    <p>學生於此課程主要學習基本發音、簡單會話、名詞、動詞、形容詞基本句型。</p>
+                                    <p>最快約36堂完成、每堂1.5小時</p>
+                                    <p>學費：$300/堂</p>
+                                    <p>
+                                        <a onclick="toggleCustomizedClass('fundamental-arrow','fundamental-class-desc')">
+                                            <i id="fundamental-arrow" class="lni lni-arrow-down-circle"></i> 一對一/自組小班資料
+                                        </a>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="course-desc2">
+                            <div id="fundamental-class-desc" class="course-desc2 course-desc-expand">
                                 <div class="course-table">
                                     <div class="course-header">
                                         <div class="course-row">
@@ -252,17 +262,27 @@
                                 <div class="course-table">
                                     <div class="course-title-row">
                                         <div class="course-title-cell">
-                                            <p class="course-card-title retroshadow">N5程度（約40堂、每堂1.5小時）</p>
-                                            <p>學生於此課程主要學習動詞多種基本變化，以達至更多想表達的意思。</p>
+                                            <p class="course-card-title retroshadow">N5程度</p>
                                         </div>
                                         <div class="course-title-cell-right">
-                                            <button class="btn" onclick="window.open('http://docs.google.com/forms/d/1z9sXRLlSq8N6U_IOTPPVoCkDxZ3yhw0PzzNf0uutB-s/','_blank')" id="sendMessageButton">按此報名
-                                        </button>
+                                            <button class="btn" onclick="window.open('http://docs.google.com/forms/d/1z9sXRLlSq8N6U_IOTPPVoCkDxZ3yhw0PzzNf0uutB-s/','_blank')" id="sendMessageButton">
+                                                按此報名
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
+                                <div>
+                                    <p>學生於此課程主要學習動詞多種基本變化，以達至更多想表達的意思。</p>
+                                    <p>最快約36堂完成、每堂1.5小時</p>
+                                    <p>學費：$310/堂</p>
+                                    <p>
+                                        <a onclick="toggleCustomizedClass('n5-arrow','n5-class-desc')">
+                                            <i id="n5-arrow" class="lni lni-arrow-down-circle"></i> 一對一/自組小班資料
+                                        </a>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="course-desc2">
+                            <div id="n5-class-desc" class="course-desc2 course-desc-expand">
                                 <div class="course-table">
                                     <div class="course-header">
                                         <div class="course-row">
@@ -348,8 +368,7 @@
                                 <div class="course-table">
                                     <div class="course-title-row">
                                         <div class="course-title-cell">
-                                            <p class="course-card-title retroshadow">N4程度（約40堂、每堂1.5小時）</p>
-                                            <p>學生於此課程主要學習動詞更複雜的變化，句子結構較複雜，表達意思更深入。包括少量商業日語。</p>
+                                            <p class="course-card-title retroshadow">N4程度</p>
                                         </div>
                                         <div class="course-title-cell-right">
                                             <button class="btn" onclick="window.open('http://docs.google.com/forms/d/1z9sXRLlSq8N6U_IOTPPVoCkDxZ3yhw0PzzNf0uutB-s/','_blank')" id="sendMessageButton">按此報名
@@ -357,8 +376,18 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div>
+                                    <p>學生於此課程主要學習動詞更複雜的變化，句子結構較複雜，表達意思更深入。包括少量商業日語。</p>
+                                    <p>最快約36堂完成、每堂1.5小時</p>
+                                    <p>學費：$320/堂</p>
+                                    <p>
+                                        <a onclick="toggleCustomizedClass('n4-arrow','n4-class-desc')">
+                                            <i id="n4-arrow" class="lni lni-arrow-down-circle"></i> 一對一/自組小班資料
+                                        </a>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="course-desc2">
+                            <div id="n4-class-desc" class="course-desc2 course-desc-expand">
                                 <div class="course-table">
                                     <div class="course-header">
                                         <div class="course-row">
@@ -444,12 +473,114 @@
                                 <div class="course-table">
                                     <div class="course-title-row">
                                         <div class="course-title-cell">
-                                            <p class="course-card-title retroshadow">N3程度（約40堂、每堂1.5小時）</p>
-                                            <p>學生於此課程會學習日文書面語及口語，會有更多寫作練習。</p>
+                                            <p class="course-card-title retroshadow">N3程度</p>
                                         </div>
                                         <div class="course-title-cell-right">
                                             <button class="btn" onclick="window.open('http://docs.google.com/forms/d/1z9sXRLlSq8N6U_IOTPPVoCkDxZ3yhw0PzzNf0uutB-s/','_blank')" id="sendMessageButton">按此報名
                                         </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>學生於此課程主要學習日文書面語及口語，會有更多寫作練習。</p>
+                                    <p>最快約36堂完成、每堂1.5小時</p>
+                                    <p>學費：$340/堂</p>
+                                    <p>
+                                        <a onclick="toggleCustomizedClass('n3-arrow','n3-class-desc')">
+                                            <i id="n3-arrow" class="lni lni-arrow-down-circle"></i> 一對一/自組小班資料
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="n3-class-desc" class="course-desc2 course-desc-expand">
+                                <div class="course-table">
+                                    <div class="course-header">
+                                        <div class="course-row">
+                                            <div class="course-cell course-header-padding course-bg-grey">
+
+                                            </div>
+                                            <div class="course-cell course-bg-grey">
+                                                人數
+                                            </div>
+                                            <div class="course-cell course-bg-grey">
+                                                荔枝角小教室
+                                            </div>
+                                            <div class="course-cell course-bg-grey text-sc-right">
+                                                教室以外地方
+                                            </div>
+                                            <div class="course-cell course-header-padding course-bg-grey">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="course-body">
+                                        <div class="course-row">
+                                            <div class="course-cell course-header-padding">
+
+                                            </div>
+                                            <div class="course-cell">
+                                                1對1
+                                            </div>
+                                            <div class="course-cell">
+                                                $375@1.5hr
+                                            </div>
+                                            <div class="course-cell text-sc-right">
+                                                $300@1hr
+                                            </div>
+                                            <div class="course-cell course-header-padding">
+
+                                            </div>
+                                        </div>
+                                        <div class="course-row">
+                                            <div class="course-cell course-header-padding">
+
+                                            </div>
+                                            <div class="course-cell">
+                                                1對2
+                                            </div>
+                                            <div class="course-cell">
+                                                $350@1.5hr
+                                            </div>
+                                            <div class="course-cell text-sc-right">
+                                                $338@1.5hr
+                                            </div>
+                                            <div class="course-cell course-header-padding">
+
+                                            </div>
+                                        </div>
+                                        <div class="course-row">
+                                            <div class="course-cell course-header-padding">
+
+                                            </div>
+                                            <div class="course-cell">
+                                                1對3
+                                            </div>
+                                            <div class="course-cell">
+                                                $325@1.5hr
+                                            </div>
+                                            <div class="course-cell text-sc-right">
+                                                $375@1.5hr
+                                            </div>
+                                            <div class="course-cell course-header-padding">
+
+                                            </div>
+                                        </div>
+                                        <div class="course-row">
+                                            <div class="course-cell course-header-padding">
+
+                                            </div>
+                                            <div class="course-cell">
+                                                1對4或以上
+                                            </div>
+                                            <div class="course-cell">
+                                                $300@1.5hr
+                                            </div>
+                                            <div class="course-cell text-sc-right">
+                                                $900@1.5hr<br/>(全班總共學費)
+                                            </div>
+                                            <div class="course-cell course-header-padding">
+
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -666,12 +797,9 @@
                                         </div>
                                         <div class="course-title-cell-right">
                                             <p>
-                                            <button class="btn" onclick="toggle( 'modal-n5', 'modal-japclass-expand')" id="sendMessageButton">自行組班
-                                            </button>
-                                            </p>
-                                            <p>
-                                            <button class="btn" onclick="window.open('http://docs.google.com/forms/d/1z9sXRLlSq8N6U_IOTPPVoCkDxZ3yhw0PzzNf0uutB-s/','_blank')" id="sendMessageButton">按此報名
-                                            </button>
+                                                <button class="btn" onclick="window.open('http://docs.google.com/forms/d/1z9sXRLlSq8N6U_IOTPPVoCkDxZ3yhw0PzzNf0uutB-s/','_blank')" id="sendMessageButton">
+                                                    按此報名
+                                                </button>
                                             </p>
                                         </div>
                                     </div>
@@ -959,352 +1087,7 @@
             </div>
         </div>
     </div>
-</div>
-<div class="card bottom-padding">
-    <div class="course-flex">
-        <div class="course-desc1">
-            <div class="course-table">
-                <div class="course-title-row">
-                    <div class="course-title-cell">
-                        <p class="course-card-title retroshadow">N2程度（約40堂、每堂1.5小時）</p>
-                        <p>學習高級程度日語，主要學習日本語能力試驗語彙及句型。</p>
-                    </div>
-                    <div class="course-title-cell-right">
-                        <button class="btn" onclick="window.open('http://docs.google.com/forms/d/1z9sXRLlSq8N6U_IOTPPVoCkDxZ3yhw0PzzNf0uutB-s/','_blank')" id="sendMessageButton">按此報名
-                    </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="course-desc2">
-            <div class="course-table">
-                <div class="course-header">
 
-                    <div class="course-row">
-                        <div class="course-cell course-header-padding course-bg-grey">
-
-                        </div>
-                        <div class="course-cell course-bg-grey">
-                            人數
-                        </div>
-                        <div class="course-cell course-bg-grey">
-                            荔枝角小教室
-                        </div>
-                        <div class="course-cell course-header-padding course-bg-grey">
-
-                        </div>
-                    </div>
-                </div>
-                <div class="course-body">
-                    <div class="course-row">
-                        <div class="course-cell course-header-padding">
-
-                        </div>
-                        <div class="course-cell">
-                            1對1
-                        </div>
-                        <div class="course-cell">
-                            $420@1.5hr
-                        </div>
-                        <div class="course-cell course-header-padding">
-
-                        </div>
-                    </div>
-                    <div class="course-row">
-                        <div class="course-cell course-header-padding">
-
-                        </div>
-                        <div class="course-cell">
-                            1對2
-                        </div>
-                        <div class="course-cell">
-                            $392@1.5hr
-                        </div>
-                        <div class="course-cell course-header-padding">
-
-                        </div>
-                    </div>
-                    <div class="course-row">
-                        <div class="course-cell course-header-padding">
-
-                        </div>
-                        <div class="course-cell">
-                            1對3
-                        </div>
-                        <div class="course-cell">
-                            $362@1.5hr
-                        </div>
-
-                        <div class="course-cell course-header-padding">
-
-                        </div>
-                    </div>
-                    <div class="course-row">
-                        <div class="course-cell course-header-padding">
-
-                        </div>
-                        <div class="course-cell">
-                            1對4或以上
-                        </div>
-                        <div class="course-cell">
-                            $336@1.5hr
-                        </div>
-                        <div class="course-cell course-header-padding">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal-laichikok modal-laichikok-expand" id="modal-laichikok">
-        <div class="modal-inner">
-            <a class="modal-close a-btn" onclick="toggle( 'modal-laichikok', 'modal-laichikok-expand')">關閉<span
-                    class="gap-5px"></span><i class="lni-close size-xs"></i></a>
-            <div class="container modal-container">
-                <div class="container-padding">
-                    <div class="modal-laichikok-flex">
-                        <div class="modal-laichikok-outer-card">
-                            <div class="card modal-laichikok-card">
-                                <div class="modal-laichikok-card-up">
-                                    <img src="img/map/1.jpeg" class="modal-laichikok-card-img" />
-                                </div>
-                                <div class="modal-laichikok-card-down">
-                                    <ol start="1">
-                                        <li>由荔枝角港鐵站B1出口出發</li>
-                                    </ol>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-laichikok-hori-arrow">
-                            <img src="img/arrow_left.png" class="modal-laichikok-hori-arrow-img" />
-                        </div>
-                        <div class="modal-laichikok-vert-arrow">
-                            <img src="img/arrow_left_down.png" class="modal-laichikok-vert-arrow-img" />
-                        </div>
-                        <div class="modal-laichikok-outer-card">
-                            <div class="card modal-laichikok-card">
-                                <div class="modal-laichikok-card-up">
-                                    <img src="img/map/2.jpeg" class="modal-laichikok-card-img" />
-                                </div>
-                                <div class="modal-laichikok-card-down">
-                                    <ol start="2">
-                                        <li>直行並越過前面交通燈</li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="right-down-arrow modal-laichikok-down-arrow">
-                            <div class="modal-laichikok-down-arrow-inner">
-                                <img src="img/arrow_right_down.png" class="modal-laichikok-down-arrow-img" />
-                            </div>
-                        </div>
-                        <div class="modal-laichikok-vert-arrow">
-                            <img src="img/arrow_left_down.png" class="modal-laichikok-vert-arrow-img" />
-                        </div>
-                    </div>
-                    <div class="modal-laichikok-flex-reverse">
-                        <div class="modal-laichikok-outer-card">
-                            <div class="card modal-laichikok-card">
-                                <div class="modal-laichikok-card-up">
-                                    <img src="img/map/3.jpeg" class="modal-laichikok-card-img" />
-                                </div>
-                                <div class="modal-laichikok-card-down">
-                                    <ol start="3">
-                                        <li>繼續直行</li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-laichikok-hori-arrow">
-                            <img src="img/arrow_right.png" class="modal-laichikok-hori-arrow-img" />
-                        </div>
-                        <div class="modal-laichikok-vert-arrow">
-                            <img src="img/arrow_left_down.png" class="modal-laichikok-vert-arrow-img" />
-                        </div>
-                        <div class="modal-laichikok-outer-card">
-                            <div class="card modal-laichikok-card">
-                                <div class="modal-laichikok-card-up">
-                                    <img src="img/map/4.jpeg" class="modal-laichikok-card-img" />
-                                </div>
-                                <div class="modal-laichikok-card-down">
-                                    <ol start="4">
-                                        <li>越過光昌街 進入麗新商場</li>
-                                    </ol>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-laichikok-down-arrow left-down-arrow">
-                            <div class="modal-laichikok-down-arrow-inner">
-                                <img src="img/arrow_left_down.png" class="modal-laichikok-down-arrow-img" />
-                            </div>
-                        </div>
-                        <div class="modal-laichikok-vert-arrow">
-                            <img src="img/arrow_left_down.png" class="modal-laichikok-vert-arrow-img" />
-                        </div>
-                    </div>
-                    <div class="modal-laichikok-flex">
-                        <div class="modal-laichikok-outer-card">
-                            <div class="card modal-laichikok-card">
-                                <div class="modal-laichikok-card-up">
-                                    <img src="img/map/5.jpeg" class="modal-laichikok-card-img" />
-                                </div>
-                                <div class="modal-laichikok-card-down">
-                                    <ol start="5">
-                                        <li>進入戲院</li>
-                                    </ol>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-laichikok-hori-arrow">
-                            <img src="img/arrow_left.png" class="modal-laichikok-hori-arrow-img" />
-                        </div>
-                        <div class="modal-laichikok-vert-arrow">
-                            <img src="img/arrow_left_down.png" class="modal-laichikok-vert-arrow-img" />
-                        </div>
-                        <div class="modal-laichikok-outer-card">
-                            <div class="card modal-laichikok-card">
-                                <div class="modal-laichikok-card-up">
-                                    <img src="img/map/6.jpeg" class="modal-laichikok-card-img" />
-                                </div>
-                                <div class="modal-laichikok-card-down">
-                                    <ol start="6">
-                                        <li>穿過戲院直出福華街</li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="right-down-arrow modal-laichikok-down-arrow">
-                            <div class="modal-laichikok-down-arrow-inner">
-                                <img src="img/arrow_right_down.png" class="modal-laichikok-down-arrow-img" />
-                            </div>
-                        </div>
-                        <div class="modal-laichikok-vert-arrow">
-                            <img src="img/arrow_left_down.png" class="modal-laichikok-vert-arrow-img" />
-                        </div>
-                    </div>
-                    <div class="modal-laichikok-flex-reverse">
-                        <div class="modal-laichikok-outer-card">
-                            <div class="card modal-laichikok-card">
-                                <div class="modal-laichikok-card-up">
-                                    <img src="img/map/7.jpeg" class="modal-laichikok-card-img" />
-                                </div>
-                                <div class="modal-laichikok-card-down">
-                                    <ol start="7">
-                                        <li>直出福華街轉左</li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-laichikok-hori-arrow">
-                            <img src="img/arrow_right.png" class="modal-laichikok-hori-arrow-img" />
-                        </div>
-                        <div class="modal-laichikok-vert-arrow">
-                            <img src="img/arrow_left_down.png" class="modal-laichikok-vert-arrow-img" />
-                        </div>
-                        <div class="modal-laichikok-outer-card">
-                            <div class="card modal-laichikok-card">
-                                <div class="modal-laichikok-card-up">
-                                    <img src="img/map/8.jpeg" class="modal-laichikok-card-img" />
-                                </div>
-                                <div class="modal-laichikok-card-down">
-                                    <ol start="8">
-                                        <li>直行</li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-laichikok-down-arrow left-down-arrow">
-                            <div class="modal-laichikok-down-arrow-inner">
-                                <img src="img/arrow_left_down.png" class="modal-laichikok-down-arrow-img" />
-                            </div>
-                        </div>
-                        <div class="modal-laichikok-vert-arrow">
-                            <img src="img/arrow_left_down.png" class="modal-laichikok-vert-arrow-img" />
-                        </div>
-                    </div>
-                    <div class="modal-laichikok-flex">
-                        <div class="modal-laichikok-outer-card">
-                            <div class="card modal-laichikok-card">
-                                <div class="modal-laichikok-card-up">
-                                    <img src="img/map/9.jpeg" class="modal-laichikok-card-img" />
-                                </div>
-                                <div class="modal-laichikok-card-down">
-                                    <ol start="9">
-                                        <li>越過青山道</li>
-                                    </ol>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-laichikok-hori-arrow">
-                            <img src="img/arrow_left.png" class="modal-laichikok-hori-arrow-img" />
-                        </div>
-                        <div class="modal-laichikok-vert-arrow">
-                            <img src="img/arrow_left_down.png" class="modal-laichikok-vert-arrow-img" />
-                        </div>
-                        <div class="modal-laichikok-outer-card">
-                            <div class="card modal-laichikok-card">
-                                <div class="modal-laichikok-card-up">
-                                    <img src="img/map/10.jpeg" class="modal-laichikok-card-img" />
-                                </div>
-                                <div class="modal-laichikok-card-down">
-                                    <ol start="10">
-                                        <li>過對面斑馬綫</li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="right-down-arrow modal-laichikok-down-arrow">
-                            <div class="modal-laichikok-down-arrow-inner">
-                                <img src="img/arrow_right_down.png" class="modal-laichikok-down-arrow-img" />
-                            </div>
-                        </div>
-                        <div class="modal-laichikok-vert-arrow">
-                            <img src="img/arrow_left_down.png" class="modal-laichikok-vert-arrow-img" />
-                        </div>
-                    </div>
-                    <div class="modal-laichikok-flex-reverse">
-                        <div class="modal-laichikok-outer-card">
-                            <div class="card modal-laichikok-card">
-                                <div class=" modal-laichikok-card-up">
-                                    <img src="img/map/11.jpeg" class="modal-laichikok-card-img" />
-                                </div>
-                                <div class="modal-laichikok-card-down">
-                                    <ol start="11">
-                                        <li>直行直至見到百美工業大廈</li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-laichikok-hori-arrow">
-                            <img src="img/arrow_right.png" class="modal-laichikok-hori-arrow-img" />
-                        </div>
-                        <div class="modal-laichikok-vert-arrow">
-                            <img src="img/arrow_left_down.png" class="modal-laichikok-vert-arrow-img" />
-                        </div>
-                        <div class="modal-laichikok-outer-card">
-                            <div class="card modal-laichikok-card">
-                                <div class="modal-laichikok-card-up">
-                                    <img src="img/map/12.jpeg" class="modal-laichikok-card-img" />
-                                </div>
-                                <div class="modal-laichikok-card-down">
-                                    <ol start="12">
-                                        <li>搭升降機至11樓會見到lofter大門<br/>按207#並等待開門</li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
 
     <script src="js/script.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
