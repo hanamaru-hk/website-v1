@@ -1,0 +1,117 @@
+section.transportation {
+    background: rgb(255, 228, 189);
+}
+
+section.transportation div.transportation-second-diagonal {
+    position: relative;
+    background: rgb(255, 248, 219);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92%);
+    width: 100%;
+    text-align: center;
+}
+
+.transportation-container {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    padding-top: 5rem;
+    padding-bottom: 12rem;
+}
+
+.transportation-card-background {
+    background-color: white;
+}
+
+.transportation-card-flex {
+    display: flex;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    width: 100%;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.transportation-card-flex-up {
+    flex-direction: row;
+}
+
+.transportation-card-flex-down {
+    flex-direction: row-reverse;
+}
+
+.transportation-card-pic-1 {
+    width: 45%;
+    height: 300px;
+    background-image: linear-gradient(to left, rgb(255, 248, 219, 1), rgba(0, 0, 0, 0), 20%, rgba(0, 0, 0, 0)), url('../assets/img/transportation-laichikok.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.transportation-card-pic-2 {
+    width: 45%;
+    height: 300px;
+    background-image: linear-gradient(to right, rgb(255, 248, 219, 1), rgba(0, 0, 0, 0), 20%, rgba(0, 0, 0, 0)), url('../assets/img/transportation-laichikok.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.transportation-card-text {
+    background: white;
+    flex-grow: 2;
+    width: 55%;
+    padding: 2rem;
+}
+
+.transportation-card {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.transportation-title {
+    display: inline-block;
+    font-size: 50px;
+    padding-left: 0rem;
+    background-color: white;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1100px) {
+    .transportation-card-flex {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .transportation-card-pic-1 {
+        background-image: url('../assets/img/transportation-laichikok.jpg');
+        height: 400px;
+        width: 100%;
+    }
+    .transportation-card-pic-2 {
+        height: 400px;
+        width: 100%;
+    }
+    .transportation-card-text {
+        width: 100%;
+        flex-grow: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .transportation-card-flex {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .transportation-card-pic-1 {
+        background-image: url('../assets/img/transportation-laichikok.jpg');
+        height: 400px;
+        width: 100%;
+    }
+    .transportation-card-pic-2 {
+        height: 400px;
+        width: 100%;
+    }
+    .transportation-card-text {
+        width: 100%;
+        flex-grow: 0;
+    }
+}
