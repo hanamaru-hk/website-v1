@@ -10,6 +10,9 @@ import Contact from "./sections/Contact"
 import Copyright from "./sections/Copyright"
 import { Store } from "./Store"
 
+import ReactNotification from 'react-notifications-component'
+import 'react-notifications-component/dist/theme.css'
+
 import "./App.css"
 
 const store = new Store()
@@ -18,6 +21,7 @@ function App() {
   return (
     <div className="App">
       <Provider store={store}>
+        <ReactNotification />
         <Nav />
         <Hero />
         <About />

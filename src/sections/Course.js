@@ -6,6 +6,7 @@ import PropTypes from "prop-types"
 import NormalCourseCard from "../components/NormalCourseCard"
 import SelfCourseCard1 from "../components/SelfCourseCard1"
 import SelfCourseCard2 from "../components/SelfCourseCard2"
+import Subscription from "../components/Subscription"
 import { scrollToRef } from "../helpers/Anim"
 
 function Course({ store }) {
@@ -177,6 +178,8 @@ function Course({ store }) {
                 </div>
               }
             />
+            <h1 className="course-title retroshadow">訂閱更新</h1>
+            <Subscription />
           </div>
         </div>
       </div>
